@@ -1,0 +1,91 @@
+﻿body {
+   
+   background:#fff url(../img/back.jpg);
+   margin: 0px auto;
+   height: 100%;
+   width: auto;
+   background-repeat:no-repeat;
+   background-position:center;
+   cursor:default;
+}
+
+div {
+    
+}
+
+#wrapper {
+   
+    
+}
+
+#box {
+    
+    width:488px;
+    height:488px;
+    border-style:double;
+    border-width:5px;
+    border-radius:5px 10px;
+    border-color:#312c2c;
+    margin:0px auto;
+    margin-top:70px;
+
+}
+
+#wrapper {
+    width:auto;
+}
+
+.form_style {
+    
+    width:25%;
+    height:20%;
+    margin:0px auto;
+    margin-top:20px;
+} 
+
+.button_basics {
+    
+    width:100px;
+    height:100px;
+    margin:10px;
+    border-style:solid;
+    border-color:#beb7b7;
+    border-width:1px;
+    font-size:46px;
+    color:#eeeeee;
+    text-align:center;
+    line-height:100px;
+
+    -webkit-box-shadow:
+        0 1px 0 rgba(255,255,255,.2),
+        inset 0 4px 5px rgba(0,0,0,.6),
+        inset 0 1px 0 rgba(0,0,0,.6);
+    -moz-box-shadow:
+        0 1px 0 rgba(255,255,255,.2),
+        inset 0 4px 5px rgba(0,0,0,.6),
+        inset 0 1px 0 rgba(0,0,0,.6);
+    box-shadow:
+        0 1px 0 rgba(255,255,255,.2),
+        inset 0 4px 5px rgba(0,0,0,.6),
+        inset 0 1px 0 rgba(0,0,0,.6);
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+
+    background: url(../img/wood.jpg);
+    font-family:Tahoma, serif;
+    font-weight:bold;
+    text-shadow:0px 0px 0 rgb(157,157,157),-1px -1px 0 rgb(105,105,105),-3px -3px 0 rgb(53,53,53), -2px -2px 0 rgb(1,1,1),-1px -1px 2px rgba(0,0,0,0),-1px -1px 1px rgba(0,0,0,0.5),0px 0px 2px rgba(0,0,0,.2);
+}
+
+.button_float {
+    float:left;
+}
+
+.button_no_float {
+
+}
+
+.invisible {
+ visibility:hidden;
+}
